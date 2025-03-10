@@ -1,0 +1,6 @@
+# ninja log v5
+0	3721	1741631223713027949	CMakeFiles/projekt.dir/Set.cpp.o	b6580460e1b4485a
+0	4064	1741631224067271645	CMakeFiles/projekt.dir/main.cpp.o	f978cbb512a82fe4
+3	4400	1741631224404525732	CMakeFiles/projekt.dir/Loader.cpp.o	aba269c2600688d3
+3	4420	1741631224425413471	CMakeFiles/projekt.dir/KMeansDiscretization.cpp.o	c4646ac1380d32c5
+4420	5524	1741631225533334002	projekt	7b02d488ac8ca21b
