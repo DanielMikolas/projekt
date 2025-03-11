@@ -73,6 +73,12 @@ build CMakeFiles/projekt.dir/KMeansDiscretization.cpp.o: CXX_COMPILER__projekt_u
   OBJECT_DIR = CMakeFiles/projekt.dir
   OBJECT_FILE_DIR = CMakeFiles/projekt.dir
 
+build CMakeFiles/projekt.dir/CMeansDiscretization.cpp.o: CXX_COMPILER__projekt_unscanned_Debug /Users/danielpc/Desktop/ProjALG/CMeansDiscretization.cpp || cmake_object_order_depends_target_projekt
+  DEP_FILE = CMakeFiles/projekt.dir/CMeansDiscretization.cpp.o.d
+  FLAGS = -stdlib=libc++ -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/projekt.dir
+  OBJECT_FILE_DIR = CMakeFiles/projekt.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target projekt
@@ -81,7 +87,7 @@ build CMakeFiles/projekt.dir/KMeansDiscretization.cpp.o: CXX_COMPILER__projekt_u
 #############################################
 # Link the executable projekt
 
-build projekt: CXX_EXECUTABLE_LINKER__projekt_Debug CMakeFiles/projekt.dir/main.cpp.o CMakeFiles/projekt.dir/Set.cpp.o CMakeFiles/projekt.dir/Loader.cpp.o CMakeFiles/projekt.dir/KMeansDiscretization.cpp.o
+build projekt: CXX_EXECUTABLE_LINKER__projekt_Debug CMakeFiles/projekt.dir/main.cpp.o CMakeFiles/projekt.dir/Set.cpp.o CMakeFiles/projekt.dir/Loader.cpp.o CMakeFiles/projekt.dir/KMeansDiscretization.cpp.o CMakeFiles/projekt.dir/CMeansDiscretization.cpp.o
   FLAGS = -stdlib=libc++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
   OBJECT_DIR = CMakeFiles/projekt.dir
   POST_BUILD = :

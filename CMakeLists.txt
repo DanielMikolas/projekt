@@ -26,6 +26,7 @@ add_executable(projekt
         Loader.cpp
         KMeansDiscretization.cpp
         Set.cpp
+        CMeansDiscretization.cpp
 )
 
 # Pre správnu kompatibilitu so štandardnou knižnicou na Macu (voliteľné)
