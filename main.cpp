@@ -3,9 +3,10 @@
 #include "KMeansDiscretization.h"
 #include "CMeansDiscretization.h"
 
+//dvaaplusdvajeosem
 int main() {
     Loader loader;
-    std::string filepath = "Iris.txt"; // Nahraď názvom svojho súboru
+    std::string filepath = "C:/skola/ing/discretization/Iris.txt"; // Nahraď názvom svojho súboru
     std::vector<Set> sets = loader.load(filepath, ',');
 
     int numIntervals = 3; // Počet intervalov (môžeš nastaviť podľa potreby)
